@@ -1,0 +1,4 @@
+vagrant-basebox
+===============
+
+Vagrant basebox
