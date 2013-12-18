@@ -1,7 +1,7 @@
 vagrant-basebox
 ===============
 
-CentOS 6.44446_64
+CentOS 6.4 x86_64
 
 Install Vagrant
 ```
