@@ -19,9 +19,9 @@ $ bundle install
 
 Building a basebox
 ```
-$ BUNDLE_GEMFILE=~ywkim/tmp/veewee/Gemfile bundle exec veewee vbox build 'centos-6.4-x86_64' --force
+$ BUNDLE_GEMFILE=~ywkim/tmp/veewee/Gemfile bundle exec veewee vbox build 'centos-6.5-x86_64' --force
 
-$ vagrant package --base 'centos-6.4-x86_64' --output 'centos-6.4-x86_64.box'
+$ vagrant package --base 'centos-6.5-x86_64' --output 'centos-6.5-x86_64.box'
 
-$ vagrant box add 'centos-6.4-x86_64' 'centos-6.4-x86_64.box'
+$ vagrant box add 'centos-6.5-x86_64' 'centos-6.5-x86_64.box'
 ```
