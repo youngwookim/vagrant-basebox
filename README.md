@@ -3,12 +3,12 @@ vagrant-basebox
 
 CentOS 6.4 x86_64
 
-Install Vagrant
+Install Vagrant:
 ```
 ......
 ```
 
-Install veewee
+Install veewee:
 ```
 $ cd <path_to_workspace>
 $ git clone https://github.com/jedi4ever/veewee.git
@@ -17,7 +17,7 @@ $ gem install bundler
 $ bundle install
 ```
 
-Building a basebox
+Building a basebox:
 ```
 $ BUNDLE_GEMFILE=~ywkim/tmp/veewee/Gemfile bundle exec veewee vbox build 'centos-6.5-x86_64' --force
 
